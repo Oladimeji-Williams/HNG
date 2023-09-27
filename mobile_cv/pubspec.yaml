@@ -1,0 +1,23 @@
+name: mobile_cv
+description: A mobile CV application
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  flutter_screenutil: ^5.1.1  # add this
+  flutter_lints: ^2.0.3
+  flutter_test:
+    sdk: flutter
+  webview_flutter: ^4.2.4
+
+
+flutter:
+  uses-material-design: true
